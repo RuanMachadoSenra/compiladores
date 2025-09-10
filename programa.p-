@@ -1,0 +1,9 @@
+program teste;
+var x, y: int;
+
+begin
+   x := 42;
+   y := x + 3;
+   if y > 10 then
+      write(y);
+end.
